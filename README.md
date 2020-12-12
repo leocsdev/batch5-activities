@@ -2,7 +2,7 @@
 
 - [HTML Email](/html-email/index.html){:target="_blank"}
 - [Best Practices](/best-practice-page/index.html){:target="_blank"}
-- [Tribute Page](/tribute-page/index.html){:target="_blank"}
+- [Tribute Page](/tribute-page-project/index.html){:target="_blank"}
 - [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="_blank"}
 - Chessboard Grid (To Follow)
 - Survey Form (To Follow)
