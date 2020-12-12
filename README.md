@@ -1,12 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to my GitHub Pages
+
+- [HTML Email](/html-email/index.html){:target="_blank"}
+- [Best Practices](/best-practice-page/index.html){:target="_blank"}
+- [Tribute Page](/tribute-page/index.html){:target="_blank"}
+- [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="_blank"}
+- Chessboard Grid (To Follow)
+- Survey Form (To Follow)
+- Landing Page (To Follow)
+
+<!---  
+## Welcome to my GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/leocsdev/batch5-activities/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-- [HTML Email](/html-email/index.html){:target="_blank"}
-
-<!---  
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
