@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+
+  font-size: clamp(1rem, 0.5rem + 5vw, 2.5rem);
+}
+
+i.fas {
+  font-size: clamp(0.5rem, 0.25rem + 7vw, 4rem);
+  
+}
+
+.black-piece {
+  color: #333333;
+}
+
+.white-piece {
+  color: darkgoldenrod;
+}
+
+.container {
+  height: 95vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chessboard {
+  height: auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+
+  /* this gives the height proportion to the width */
+  padding-top: 12.5%;
+}
+
+.box-content {
+  position: absolute;
+
+  /* center content */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.row-1 .box:nth-child(even),
+.row-2 .box:nth-child(odd) {
+  background-color: green;
+}
+
+.row-1 .box:nth-child(odd),
+.row-2 .box:nth-child(even) {
+  background-color: beige;
+}
