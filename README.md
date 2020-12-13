@@ -1,4 +1,4 @@
-## Welcome to my GitHub Pages
+## List of activities and projects for Avion School
 
 - [HTML Email](/html-email/index.html){:target="_blank"}
 - [Best Practices](/best-practice-page/index.html){:target="_blank"}
