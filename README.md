@@ -4,9 +4,10 @@
 - [Best Practices](/best-practice-page/index.html){:target="_blank"}
 - [Tribute Page](/tribute-page-project/index.html){:target="_blank"}
 - [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="_blank"}
-- Chessboard Grid (To Follow)
+- Chessboard Grid
 - [Survey Form](survey-form/index.html){:target="_blank"}
-- Landing Page (To Follow)
+- Landing Page
+- Calculator
 
 <!---  
 ## Welcome to my GitHub Pages
