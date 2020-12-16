@@ -8,6 +8,7 @@
 - [Survey Form](/survey-form/index.html){:target="_blank"}
 - Landing Page
 - [Calculator](/calculator/index.html){:target="_blank"}
+- [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="_blank"}
 
 <!---  
 ## Welcome to my GitHub Pages
