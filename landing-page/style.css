@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .py-section {
-  padding: 75px 1rem;
+  padding: 5rem 1rem;
 }
 
 img.responsive {
@@ -40,6 +40,7 @@ img.responsive {
 .section-heading h2 {
   font-size: 3rem;
   margin-top: 1rem;
+  margin-bottom: 5rem;
 } 
 
 #header {
@@ -114,9 +115,31 @@ img.responsive {
 }
 
 #services {
-  /* background-color: #fff9fc; */
   background-color: #fbfaf9;
 }
+
+#services .services-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* set margin bottom for first section-row */
+#services .services-row:first-child {
+  margin-bottom: 5rem;
+}
+
+/* set equal width to have 2 columns*/
+#services .services-info,
+#services .services-image {
+  width: 48%;
+}
+
+/* set the image first on second row */
+#services .services-row:nth-child(even) .services-info {
+  order: 2;
+}
+
 
 
 /* RESPONSIVE */
