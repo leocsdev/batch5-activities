@@ -85,7 +85,8 @@ img.responsive {
 
 /* HERO SECTION */
 #hero {
-  background-image: url('./img/hero.jpg');background-repeat: no-repeat;
+  background-image: url('./img/hero.jpg');
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -166,6 +167,7 @@ img.responsive {
 #gallery .section-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
 }
 
 #gallery .section-content .img-container img {
@@ -251,6 +253,8 @@ img.responsive {
   #gallery .section-content {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
   }
 }
 
