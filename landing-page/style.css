@@ -116,9 +116,6 @@ img.responsive {
   margin: 0;
 }
 
-#services {
-  background-color: #fff8fc;
-}
 
 #services .services-row {
   display: flex;
@@ -162,6 +159,19 @@ img.responsive {
   box-shadow: 0 10px 30px -5px rgba(128, 128, 128, 0.75);
 }
 
+#gallery {
+  background-color: #fff8fc;
+}
+
+#gallery .section-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#gallery .section-content .img-container img {
+  height: 100%;
+}
+
 
 
 /* RESPONSIVE */
@@ -181,9 +191,19 @@ img.responsive {
   #services .services-info p {
     font-size: 1.1rem;
   }
+
+  #gallery .section-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 767px) {
+  .py-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   #header .container {
     display: flex;
     flex-direction: column;
@@ -227,7 +247,19 @@ img.responsive {
 }
 
 
+@media (max-width: 539px) {
+  #gallery .section-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media (max-width: 374px) {
+  .py-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .section-heading i.fas {
     font-size: 1.5rem;
   }
@@ -237,7 +269,7 @@ img.responsive {
   }
 
   #services .services-info h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   #services .services-info p {
