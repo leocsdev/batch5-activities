@@ -101,7 +101,7 @@ img.responsive {
   background-position: center center;
   background-size: cover;
   position: relative;
-  height: 95vh;
+  height: 100vh;
   margin-top: -2px;
   z-index: -1;
 }
