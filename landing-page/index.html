@@ -104,17 +104,150 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="contact">
-    <div class="container py-section full-vh">
-      <div class="section-heading">
-        <i class="fas fa-birthday-cake"></i>
-        <h2>Contact</h2>
+    <div class="container">
+      <div class="section-heading video-heading">
+        <h2>How to make cake</h2>  
+      </div>
+      <div class="video-container">
+        <iframe class="responsive-iframe" id="video" width="1280" height="721" src="https://www.youtube.com/embed/UlKkQ9qnmzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </section>
 
+  <section id="contact">
+    <div class="container py-section">
+      <div class="section-heading">
+        <i class="fas fa-birthday-cake"></i>
+        <h2>Contact Us</h2>
+      </div>
+
+      <div class="section-content">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <p>Message</p>
+            <textarea name="comment" id="comment" rows="8" placeholder="Type your message here..."></textarea>
+          </div>
+
+          <input type="submit" class="btn" id="submit" value="Send">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Sweet Aces&copy; 2020
+  </footer>
+
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
+
+
+
+<!-- 
+
+
+
+  <form id="form">
+        
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="age" id="number-label">Age</label>
+            <input type="number" id="number" name="age" placeholder="Age" min="10" max="99" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="dropdown">How often do you drink milk tea?</label>
+            <select name="dropdown" id="dropdown">
+              <option value="" selected disabled>Select How Often...</option>
+              <option value="daily">Daily</option>
+              <option value="once-week">Once a week</option>
+              <option value="more-week">More than once a week</option>
+              <option value="once-month">Once a month</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+  
+          <div class="form-group">
+            <p>What is your most favorite milk tea flavor?</p>
+            
+            <input class="larger" type="radio" name="flavor" id="classic" value="classic">
+            <label for="classic">Classic</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="wintermelon" value="wintermelon">
+            <label for="wintermelon">Wintermelon</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="mango" value="mango">
+            <label for="mango">Mango</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="matcha" value="matcha">
+            <label for="matcha">Matcha</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="taro" value="taro">
+            <label for="taro">Taro</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="chocolate" value="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <br>
+            <input class="larger" type="radio" name="flavor" id="coffee" value="coffee">
+            <label for="coffee">Coffee</label>
+          </div>
+  
+          <div class="form-group">
+            <p>Which toppings would you like to add on your milk tea (Check all that apply)</p>
+            <input class="larger" type="checkbox" name="toppings1" value="tapioca-pearls">
+            <label for="tapioca-pearls">Tapioca pearls</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings2" value="nata-de-coco">
+            <label for="nata-de-coco">Nata de coco</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings3" value="coffee-jelly">
+            <label for="coffee-jelly">Coffee Jelly</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings4" value="ice-cream">
+            <label for="ice-cream">Ice Cream</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings5" value="cheese-cream">
+            <label for="cheese-cream">Cheese cream</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings6" value="salty-cream">
+            <label for="salty-cream">Salty cream</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings7" value="red-beans">
+            <label for="red-beans">Red beans</label>
+            <br>
+            <input class="larger" type="checkbox" name="toppings8" value="grass-jelly">
+            <label for="grass-jelly">Grass jelly</label>
+          </div>
+  
+          <div class="form-group">
+            <p>Comments or suggestions?</p>
+            <textarea name="comment" id="comment" rows="8" placeholder="Enter your comment here..."></textarea>
+          </div>
+  
+          <input type="submit" class="btn" id="submit" value="Submit">
+        </form>
+
+
+
+
+
+ -->
