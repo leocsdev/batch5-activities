@@ -4,7 +4,7 @@
 - [Best Practices](/best-practice-page/index.html){:target="_blank"}
 - [Tribute Page](/tribute-page-project/index.html){:target="_blank"}
 - [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="_blank"}
-- Chessboard Grid
+- [Chessboard Grid](/chessboard-grid/){:target="_blank"}
 - [Survey Form](/survey-form/index.html){:target="_blank"}
 - [Landing Page](/landing-page/index.html){:target="_blank"}
 - [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="_blank"}
