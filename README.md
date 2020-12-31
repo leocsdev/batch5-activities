@@ -7,8 +7,9 @@
 - Chessboard Grid
 - [Survey Form](/survey-form/index.html){:target="_blank"}
 - [Landing Page](/landing-page/index.html){:target="_blank"}
-- [Calculator](/calculator/index.html){:target="_blank"}
 - [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="_blank"}
+- [Calculator](/calculator/index.html){:target="_blank"}
+- Chess Game
 
 <!---  
 ## Welcome to my GitHub Pages
