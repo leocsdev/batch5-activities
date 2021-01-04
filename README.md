@@ -10,7 +10,7 @@
 - [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="_blank"}
 - [Calculator](/calculator/index.html){:target="_blank"}
 - Chess Game
-
+- [Playing Cards](https://repl.it/talk/share/playing-cards/112887){:target="_blank"}
 <!---  
 ## Welcome to my GitHub Pages
 
