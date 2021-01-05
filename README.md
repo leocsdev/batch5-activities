@@ -11,7 +11,7 @@
 - [Calculator](/calculator/index.html){:target="_blank"}
 - Chess Game
 - [Playing Cards](https://repl.it/talk/share/playing-cards/112887){:target="_blank"}
-- Playing Cards 2
+- [Playing Cards - HTML DOM](/playing-cards-dom){:target="_blank"}
 
 <!---  
 ## Welcome to my GitHub Pages
