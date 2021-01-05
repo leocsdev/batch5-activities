@@ -101,10 +101,7 @@ function dealCard() {
   return `${card} - ${cardValue} of ${cardSuit}`;
 }
 
-
 let deckCopy  = [...deck];
-
-
 
 console.log("\n");
 console.log(`Shuffle cards: ${shuffleCards(deckCopy)}`);
