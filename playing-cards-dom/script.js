@@ -11,33 +11,33 @@ const btnShuffleCard = document.getElementById('btnShuffleCard');
 const cardSuitSymbols = ["♣", "♠", "♡", "♢"];
 const cardValues = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 
-let deck = [];
+let deckInit = [];
 
-// create deck of cards
+// create deckInit of cards
 for (let i = 0; i < cardSuitSymbols.length; i++) {
   for (let j = 0; j < cardValues.length; j++) {
     let card = cardValues[j] + cardSuitSymbols[i];
-    deck.push(card);
+    deckInit.push(card);
   }
 }
 
-// display initial deck
-displayCard.innerHTML = deck;
+// display initial deckInit
+displayCard.innerHTML = deckInit;
 
 btnShuffleCard.addEventListener('click', shuffleCard);
 
 btnDealCard.addEventListener('click', dealCard);
 
 function shuffleCard() {
-  deck.sort(() => Math.random() - 0.5);
-  displayCard.innerHTML = deck;
+  deckInit.sort(() => Math.random() - 0.5);
+  displayCard.innerHTML = deckInit;
 }
 
 // deal card
 function dealCard() {
-  // create a random number from deck.length 0 to 51
-  const randomNum = Math.floor(Math.random() * deck.length);
-  let card = deck[randomNum];
+  // create a random number from deckInit.length 0 to 51
+  const randomNum = Math.floor(Math.random() * deckInit.length);
+  let card = deckInit[randomNum];
 
   // split card and convert to array
   let cardSplit = card.split('');
@@ -89,16 +89,16 @@ function dealCard() {
 
   switch (cardSplit[cardSplit.length - 1]) {
     case "♣":
-      cardSuit = "Club";
+      cardSuit = "Clubs";
       break;
     case "♠": 
       cardSuit = "Spades";
       break;
     case "♡": 
-      cardSuit = "Heart";
+      cardSuit = "Hearts";
       break;
     case "♢":
-      cardSuit = "Diamond";
+      cardSuit = "Diamonds";
       break;
   }
 
