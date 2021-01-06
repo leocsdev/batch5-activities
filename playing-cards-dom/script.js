@@ -4,7 +4,6 @@
 const displayCard = document.getElementById('displayCard');
 const displayDealedCard = document.getElementById('displayDealedCard');
 
-
 const btnDealCard = document.getElementById('btnDealCard');
 const btnShuffleCard = document.getElementById('btnShuffleCard');
 

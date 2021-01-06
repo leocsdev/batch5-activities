@@ -12,6 +12,10 @@ p {
   font-size: 1.2rem;
 }
 
+.display-card {
+  max-width: 800px;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
