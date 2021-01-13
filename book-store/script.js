@@ -84,7 +84,8 @@ function listInventory() {
 
     // show all books
     store.inventoryList.forEach(element => {
-      console.log(`Title: ${element.title}, Quantity: ${element.quantity}, Price: ${element.price}`);
+      console.log(
+        `Title: ${element.title}, Quantity: ${element.quantity}, Price: ${element.price}`);
     });
   
   // otherwise, display no books in stock.
@@ -98,35 +99,29 @@ function isBookExist(title) {
   // check if inventory is empty or not
   if (store.inventoryList.length) {
 
+    // book title indicator
     let i = 0;
 
-    // search for book title in store inventory 
+    // search for book title in inventory 
     store.inventoryList.forEach(element => {
+
+      // check if book title exists, if it is, add 1 to indicator
       if (title === element.title) {
         i++;
       } 
     });
 
+    // book title exists, cannot be added
     if (i > 0) {
-      // console.log(i);
       return true;
+
+    // book title does not exist and can be added
     } else {
-      // console.log(i);
       return false;
     }
-    
-
-    // return false;
+  
+  // inventory list is empty and book can be added
   } else {
-    // console.log('inventory empty');
     return false;
   }
-    
-    // // search for book title in store inventory 
-    // store.inventoryList.forEach(element => {
-    //   if (title === element.title) {
-    //     return true;
-    //   } 
-    // });
-
 }
