@@ -15,16 +15,16 @@ BOOK STORE
 const store = {
   storeName: "Municipal Book Store",
   inventoryList: [
-    {
-      title: "Book 1",
-      quantity: 3,
-      price: 25
-    },
-    {
-      title: "Book 2",
-      quantity: 4,
-      price: 30
-    },
+    // {
+    //   title: "Book 1",
+    //   quantity: 3,
+    //   price: 25
+    // },
+    // {
+    //   title: "Book 2",
+    //   quantity: 4,
+    //   price: 30
+    // },
   ],
   earnings: 0
 }
