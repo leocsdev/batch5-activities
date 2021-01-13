@@ -15,23 +15,39 @@ BOOK STORE
 const store = {
   storeName: "Municipal Book Store",
   inventoryList: [
-    // {
-    //   title: "Book 1",
-    //   quantity: 3,
-    //   price: 25
-    // },
+    {
+      title: "Book 1",
+      quantity: 3,
+      price: 25
+    },
+    {
+      title: "Book 2",
+      quantity: 4,
+      price: 30
+    },
   ],
   earnings: 0
 }
 
 
 function addBook(title, quantity, price) {
-  const book = {
-    title: title,
-    quantity: quantity,
-    price: price
+  // search for book title if existing
+  if (isBookExist(title)) {
+
+    // if book is exising, exit function and suggest to process restock 
+    console.log(`Book with title: "${title}" already exists. Process restockBook instead.`);
+  } else {
+
+    // if book is not existing, add book in inventory list
+    const book = {
+      title: title,
+      quantity: quantity,
+      price: price
+    }
+
+    store.inventoryList.push(book);
+    console.log(`Book with title: "${title}" successfully added`);
   }
-  store.inventoryList.push(book);
 }
 
 
@@ -75,4 +91,42 @@ function listInventory() {
   } else {
     console.log('There are no books in stock.');
   }
+}
+
+
+function isBookExist(title) {
+  // check if inventory is empty or not
+  if (store.inventoryList.length) {
+
+    let i = 0;
+
+    // search for book title in store inventory 
+    store.inventoryList.forEach(element => {
+      if (title === element.title) {
+        i++;
+      } 
+    });
+
+    if (i > 0) {
+      // console.log(i);
+      return true;
+    } else {
+      // console.log(i);
+      return false;
+    }
+    
+
+    // return false;
+  } else {
+    // console.log('inventory empty');
+    return false;
+  }
+    
+    // // search for book title in store inventory 
+    // store.inventoryList.forEach(element => {
+    //   if (title === element.title) {
+    //     return true;
+    //   } 
+    // });
+
 }
