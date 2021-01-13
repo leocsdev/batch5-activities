@@ -15,11 +15,11 @@ BOOK STORE
 const store = {
   storeName: "Municipal Book Store",
   inventoryList: [
-    {
-      title: "Book 1",
-      quantity: 3,
-      price: 25
-    },
+    // {
+    //   title: "Book 1",
+    //   quantity: 3,
+    //   price: 25
+    // },
   ],
   earnings: 0
 }
@@ -31,7 +31,6 @@ function addBook(title, quantity, price) {
     quantity: quantity,
     price: price
   }
-
   store.inventoryList.push(book);
 }
 
@@ -52,18 +51,28 @@ function totalEarnings() {
 
 
 function listInventory() {
+  // get number of books with unique title
   let booksWithUniqueTitle = store.inventoryList.length;
-  
+
   let msg;
 
-  booksWithUniqueTitle > 1 ? 
-    msg = `There are ${booksWithUniqueTitle} books ` : 
-    msg = `There is only ${booksWithUniqueTitle} book `;
+  // if there is 1 or more books in store's inventory list, display book/s info
+  if (booksWithUniqueTitle) {
 
-  msg += `with unique title in stock.`;
-  console.log(msg);
+    // if there's only 1 book, display singular msg. otherwise, display plural msg
+    booksWithUniqueTitle > 1 ? 
+      msg = `are ${booksWithUniqueTitle} books` :
+      msg = `is only ${booksWithUniqueTitle} book`;
 
-  store.inventoryList.forEach(element => {
-    console.log(`Title: ${element.title}, Quantity: ${element.quantity}, Price: ${element.price}`);
-  });
+    console.log(`There ${msg} with unique title in stock.`);
+
+    // show all books
+    store.inventoryList.forEach(element => {
+      console.log(`Title: ${element.title}, Quantity: ${element.quantity}, Price: ${element.price}`);
+    });
+  
+  // otherwise, display no books in stock.
+  } else {
+    console.log('There are no books in stock.');
+  }
 }
