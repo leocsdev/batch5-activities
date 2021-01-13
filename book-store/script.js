@@ -11,3 +11,59 @@ BOOK STORE
 6. Create a function totalEarnings() that will display the total earnings of the store, print store name and earnings;
 7. Create a function listInventory() that will display all of books in the inventory, print title quantity and value; (edited)  
 */
+
+const store = {
+  storeName: "Municipal Book Store",
+  inventoryList: [
+    {
+      title: "Book 1",
+      quantity: 3,
+      price: 25
+    },
+  ],
+  earnings: 0
+}
+
+
+function addBook(title, quantity, price) {
+  const book = {
+    title: title,
+    quantity: quantity,
+    price: price
+  }
+
+  store.inventoryList.push(book);
+}
+
+
+function restockBook(title, quantity) { 
+  console.log("restock book");
+}
+
+
+function sellBook(title, quantity) {
+  console.log("sell book");
+}
+
+
+function totalEarnings() {
+  console.log("total earnings");
+}
+
+
+function listInventory() {
+  let booksWithUniqueTitle = store.inventoryList.length;
+  
+  let msg;
+
+  booksWithUniqueTitle > 1 ? 
+    msg = `There are ${booksWithUniqueTitle} books ` : 
+    msg = `There is only ${booksWithUniqueTitle} book `;
+
+  msg += `with unique title in stock.`;
+  console.log(msg);
+
+  store.inventoryList.forEach(element => {
+    console.log(`Title: ${element.title}, Quantity: ${element.quantity}, Price: ${element.price}`);
+  });
+}
