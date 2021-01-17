@@ -1,14 +1,28 @@
 // alert('Hello from script.js!');
 
-// 
-const displayCard = document.getElementById('displayCard');
-const displayDealedCard = document.getElementById('displayDealedCard');
+//
+const displayCard = document.getElementById("displayCard");
+const displayDealedCard = document.getElementById("displayDealedCard");
 
-const btnDealCard = document.getElementById('btnDealCard');
-const btnShuffleCard = document.getElementById('btnShuffleCard');
+const btnDealCard = document.getElementById("btnDealCard");
+const btnShuffleCard = document.getElementById("btnShuffleCard");
 
 const cardSuitSymbols = ["♣", "♠", "♡", "♢"];
-const cardValues = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+const cardValues = [
+  "A",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "J",
+  "Q",
+  "K",
+];
 
 let deck = [];
 
@@ -21,11 +35,11 @@ for (let i = 0; i < cardSuitSymbols.length; i++) {
 }
 
 // display initial deck
-displayCard.innerHTML = deck;
+displayCard.innerHTML = deck.toString();
 
-btnShuffleCard.addEventListener('click', shuffleCard);
+btnShuffleCard.addEventListener("click", shuffleCard);
 
-btnDealCard.addEventListener('click', dealCard);
+btnDealCard.addEventListener("click", dealCard);
 
 function shuffleCard() {
   deck.sort(() => Math.random() - 0.5);
@@ -39,8 +53,8 @@ function dealCard() {
   let card = deck[randomNum];
 
   // split card and convert to array
-  let cardSplit = card.split('');
-  
+  let cardSplit = card.split("");
+
   let cardSuit = "";
   let cardValue = "";
 
@@ -90,10 +104,10 @@ function dealCard() {
     case "♣":
       cardSuit = "Clubs";
       break;
-    case "♠": 
+    case "♠":
       cardSuit = "Spades";
       break;
-    case "♡": 
+    case "♡":
       cardSuit = "Hearts";
       break;
     case "♢":
