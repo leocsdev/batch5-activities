@@ -1,22 +1,22 @@
 ## List of activities and projects
 
-- [HTML Email](/html-email/index.html){:target="_blank"}
-- [Best Practices](/best-practice-page/index.html){:target="_blank"}
-- [Tribute Page](/tribute-page-project/index.html){:target="_blank"}
-- [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="_blank"}
-- [Chessboard Grid](/chessboard-grid/index.html){:target="_blank"}
-- [Survey Form](/survey-form/index.html){:target="_blank"}
-- [Landing Page](/landing-page/index.html){:target="_blank"}
-- [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="_blank"}
-- [Calculator](/calculator/index.html){:target="_blank"}
+- [HTML Email](/html-email/index.html){:target="\_blank"}
+- [Best Practices](/best-practice-page/index.html){:target="\_blank"}
+- [Tribute Page](/tribute-page-project/index.html){:target="\_blank"}
+- [Chessboard Flexbox](/chessboard-flexbox/index.html){:target="\_blank"}
+- [Chessboard Grid](/chessboard-grid/index.html){:target="\_blank"}
+- [Survey Form](/survey-form/index.html){:target="\_blank"}
+- [Landing Page](/landing-page/index.html){:target="\_blank"}
+- [Simple BMI Calculator - JavaScript](https://codepen.io/leocsdev/pen/OJRmNEo){:target="\_blank"}
+- [Calculator](/calculator/index.html){:target="\_blank"}
 - Chess Game
-- [Playing Cards](https://repl.it/talk/share/playing-cards/112887){:target="_blank"}
-- [Playing Cards - HTML DOM](/playing-cards-dom){:target="_blank"}
+- [Playing Cards](https://repl.it/talk/share/playing-cards/112887){:target="\_blank"}
+- [Playing Cards - HTML DOM](/playing-cards-dom/){:target="\_blank"}
 - Quiz
-- [Pig Game - (Collab)](https://leocsdev.github.io/batch5-pig-game/){:target="_blank"}
+- [Pig Game - (Collab)](https://leocsdev.github.io/batch5-pig-game/){:target="\_blank"}
 - Book Store
 
-<!---  
+<!---
 ## Welcome to my GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/leocsdev/batch5-activities/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
