@@ -15,6 +15,7 @@
 - Quiz
 - [Pig Game - (Collab)](https://leocsdev.github.io/batch5-pig-game/){:target="\_blank"}
 - Book Store
+- [Banking App - (Collab)](https://leocsdev.github.io/banking-app/){:target="\_blank"}
 
 <!---
 ## Welcome to my GitHub Pages
