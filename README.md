@@ -18,7 +18,7 @@
 - [Banking App - (Collab)](https://leocsdev.github.io/banking-app/){:target="\_blank"}
 - Final Project
 - Ruby
-- [SQL Basics 1](/sql/){:target="\_blank"}
+- [SQL Basics 1](/sql/index.html){:target="\_blank"}
 
 <!---
 ## Welcome to my GitHub Pages
