@@ -1,4 +1,3 @@
-```sql
 /* CREATE students TABLE */
 CREATE TABLE students (
 id integer,
@@ -27,5 +26,4 @@ WHERE id = 1;
 /* DELETE */
 DELETE FROM students
 WHERE id = (SELECT max(id) FROM students);
-```
 
