@@ -16,7 +16,7 @@
 - [Pig Game - (Collab)](https://leocsdev.github.io/batch5-pig-game/){:target="\_blank"}
 - Book Store
 - [Banking App - (Collab)](https://leocsdev.github.io/banking-app/){:target="\_blank"}
-- FE Final Project
+- [FE Final Project](https://leocsdev.github.io/trivia-whiz-app/){:target="\_blank"}
 - Ruby
 - [SQL Basics 1](https://github.com/leocsdev/batch5-activities/blob/main/sql/sql-basic-1.sql){:target="\_blank"}
 - [SQL Basics 2](https://github.com/leocsdev/batch5-activities/blob/main/sql/sql-basic-2.sql){:target="\_blank"}
